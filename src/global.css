@@ -1,0 +1,61 @@
+html, body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.banner{
+    background-color: #191B32;
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nocalc{
+    color: #8CC8FF;
+    font-family: 'Arial';
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 55px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+}
+
+.menu a{
+    text-decoration: none;
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 55px;
+    color: #76C3EF;
+}
+
+.search{
+    width: 225px;
+    height: 55px;
+    background-color:rgba(255, 255, 255, 0.25);
+    border-radius: 50px;
+    display: flex;
+    padding-left: 20px;
+}
+
+.search text{
+    color: rgba(255, 255, 255, 0.75);
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 55px;
+}
+
+.search svg{
+    position: relative;
+    top: 11px;
+    left: 40px;
+}

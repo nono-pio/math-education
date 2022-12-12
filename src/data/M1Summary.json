@@ -1,0 +1,112 @@
+[
+    {
+        "name":"Algèbre",
+        "sousChapitre":[{
+            "name":"Calcul littéral",
+            "sousChapitre":[
+                "Notation/Convention d'écriture",
+                "Polynôme et opération",
+                "Identité remarquable et factorisation"
+            ]
+        },{
+            "name":"Equations",
+            "sousChapitre":[
+                "Théorie sur les équations",
+                "Equation polynomial de 1er degrée",
+                "Equation polynomial de 2ème degrée",
+                "Système d'équation"
+            ]
+        },{
+            "name":"Polynôme et théorème",
+            "sousChapitre":[
+                "Division euclidienne",
+                "Equation polynomial",
+                "Grands théorèmes"
+            ]
+        },{
+            "name":"Fractions rationnelles",
+            "sousChapitre":[
+                "Definitions",
+                "Opérations sur les fractions rationnelles",
+                "Equations avec des fractions rationnelles"
+            ]
+        },{
+            "name":"Inéquation",
+            "sousChapitre":[
+                "Définitions",
+                "Opérations avec des intervalles",
+                "Principes d'équivalences pour les inéquations",
+                "Inéquations du 1er degrée",
+                "Inéquation de degrée supérieur à 1",
+                "Inéquation avec des fractions rationnelles"
+            ]
+        }
+        ]
+    },{
+        "name":"Géométrie",
+        "sousChapitre":[{
+            "name":"Les angles et leurs mesures",
+            "sousChapitre":[]
+        },{
+            "name":"Polygines et calculs d'aires",
+            "sousChapitre":[]
+        },{
+            "name":"Les premiers théorèmes",
+            "sousChapitre":[
+                "Le Théorème de Pythagore"
+            ]
+        },{
+            "name":"Cercle et élément de cercle",
+            "sousChapitre":[
+                "Périmètre et aire du disque",
+                "Longueur d'un arc et aire d'un secteur",
+                "angles inscrits et angles au centre"
+            ]
+        },{
+            "name":"Trigonométrie",
+            "sousChapitre":[
+                "Définitions des rapports trigonométriques",
+                "Relations trigonométriques de base",
+                "Réciproque des rapports trigonométriques"
+            ]
+        }
+        ]
+    },{
+        "name":"Fonctions",
+        "sousChapitre":[{
+            "name":"Généralité sur les fonctions",
+            "sousChapitre":[
+                "Ensembles numériques et intervalles",
+                "Définition d'une fonction f"
+            ]
+        },{
+            "name":"Fonctions particulières",
+            "sousChapitre":[
+                "Fonctions polynomiales de degrée 0",
+                "Fonctions polynomiales de degrée 1",
+                "Fonctions polynomiales de degrée 2"
+            ]
+        }
+        ]
+    },{
+        "name":"Annexe",
+        "sousChapitre":[{
+            "name":"Rappels de calculs numériques",
+            "sousChapitre":[
+                "Les ensembles numériques",
+                "Propriétés des nombres réels",
+                "Ordre des opérations",
+                "Opérations sur les fractions",
+                "Puissances entières",
+                "Racines carrées"
+            ]
+        },{
+            "name":"Liste des symbloles",
+            "sousChapitre":[]
+        },{
+            "name":"Bibliographie",
+            "sousChapitre":[]
+        }
+        ]
+    }
+]
