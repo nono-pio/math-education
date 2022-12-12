@@ -25,37 +25,77 @@ html, body{
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-    gap: 40px;
+    gap: 25px;
+}
+
+.indicator{
+    position: absolute;
+    top: 0px;
+    height: 78px;
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgba(41, 139, 255, 0.25) 100%);
+    border-bottom: 2px solid rgba(41, 139, 255, 0.7);
+}
+
+.indicator-home{
+    width: 78px;
+    left: 300px;
+}
+
+.indicator-first-year{
+    width: 100px;
+    left: 390px;
 }
 
 .menu a{
     text-decoration: none;
     font-family: 'Arial';
     font-weight: 400;
-    font-size: 30px;
+    font-size: 23px;
     line-height: 55px;
     color: #76C3EF;
 }
 
-.search{
-    width: 225px;
-    height: 55px;
-    background-color:rgba(255, 255, 255, 0.25);
-    border-radius: 50px;
+.search-bar{
+    width: 145px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.25);
     display: flex;
-    padding-left: 20px;
+    align-items: center;
+    border-radius: 50px;
 }
 
-.search text{
+.search-bar input{
+    background-color: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 10px;
+    font-size: 15px;
+    width: 80px;
+    color: white;
+}
+
+.search-bar input::placeholder{
     color: rgba(255, 255, 255, 0.75);
     font-family: 'Arial';
-    font-weight: 400;
-    font-size: 27px;
+    font-weight: 80;
     line-height: 55px;
 }
 
-.search svg{
+.search-bar button svg{
+    width: 18px;
+}
+
+.svg-search{
+    fill-opacity: 0.7;
+}
+
+.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
     position: relative;
-    top: 11px;
-    left: 40px;
+    top: 1px;
+    padding-right: 11px;
 }

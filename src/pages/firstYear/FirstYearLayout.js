@@ -1,11 +1,13 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import { Outlet } from 'react-router-dom'
 
 const FirstYearLayout = () => {
   return (
     <>
-      <div>FirstYearLayout</div>
-      <Outlet/>
+      <div className='indicator indicator-first-year'></div>
+      <Suspense fallback="Loading...">
+        <Outlet/>
+      </Suspense>
     </>
   )
 }
